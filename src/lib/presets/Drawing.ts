@@ -1,4 +1,4 @@
-export const Drawing = `import { Module, getSeededRand } from "https://qrframe.kylezhe.ng/utils.js";
+export const Drawing = `import { Module, getSeededRand } from "https://qr.kernelguardian.com/utils.js";
 import rough from "https://esm.sh/roughjs";
 
 export const paramsSchema = {

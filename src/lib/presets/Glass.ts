@@ -1,4 +1,4 @@
-export const Glass = `import { Module, getSeededRand } from "https://qrframe.kylezhe.ng/utils.js";
+export const Glass = `import { Module, getSeededRand } from "https://qr.kernelguardian.com/utils.js";
 
 export const paramsSchema = {
   Margin: {

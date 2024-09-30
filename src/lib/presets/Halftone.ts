@@ -1,4 +1,4 @@
-export const Halftone = `import { Module } from "https://qrframe.kylezhe.ng/utils.js";
+export const Halftone = `import { Module } from "https://qr.kernelguardian.com/utils.js";
 
 export const paramsSchema = {
   Image: {

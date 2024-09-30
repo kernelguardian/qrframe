@@ -283,8 +283,8 @@ export function Editor(props: Props) {
   return (
     <div class={props.class}>
       <TextareaInput
-        placeholder="https://qrframe.kylezhe.ng"
-        setValue={(s) => setInputQr("text", s || "https://qrframe.kylezhe.ng")}
+        placeholder="https://qr.kernelguardian.com/"
+        setValue={(s) => setInputQr("text", s || "https://qr.kernelguardian.com/")}
       />
       <Collapsible trigger="Data">
         <Settings />

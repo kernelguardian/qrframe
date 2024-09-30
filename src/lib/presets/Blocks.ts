@@ -1,6 +1,6 @@
 export const Blocks = `// Based on QRBTF's DSJ style
 // https://github.com/CPunisher/react-qrbtf/blob/master/src/components/QRDsj.tsx
-import { Module } from "https://qrframe.kylezhe.ng/utils.js";
+import { Module } from "https://qr.kernelguardian.com/utils.js";
 
 export const paramsSchema = {
   Margin: {

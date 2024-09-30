@@ -1,4 +1,4 @@
-export const Tutorial = `import { Module } from "https://qrframe.kylezhe.ng/utils.js";
+export const Tutorial = `import { Module } from "https://qr.kernelguardian.com/utils.js";
 export const paramsSchema = {
   Margin: {
     type: "number",

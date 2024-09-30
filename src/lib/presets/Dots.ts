@@ -1,4 +1,4 @@
-export const Dots = `import { Module, getSeededRand } from "https://qrframe.kylezhe.ng/utils.js";
+export const Dots = `import { Module, getSeededRand } from "https://qr.kernelguardian.com/utils.js";
 
 export const paramsSchema = {
   Margin: {

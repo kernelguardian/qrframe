@@ -65,7 +65,7 @@ type Render = {
 
 export function QrContextProvider(props: { children: JSX.Element }) {
   const [inputQr, setInputQr] = createStore<InputQr>({
-    text: "https://qrframe.kylezhe.ng",
+    text: "https://qr.kernelguardian.com/",
     minVersion: 1,
     strictVersion: false,
     minEcl: ECL.Low,
@@ -104,7 +104,7 @@ export function QrContextProvider(props: { children: JSX.Element }) {
         .mask(inputQr.mask!) // null instead of undefined (wasm-pack type)
         .mode(inputQr.mode!); // null instead of undefined (wasm-pack type)
 
-      return  {
+      return {
         text: inputQr.text,
         ...generate(inputQr.text, qrOptions),
       };
